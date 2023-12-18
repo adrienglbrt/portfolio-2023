@@ -1,0 +1,123 @@
+[
+    {
+        "slug": "sweets-hotel",
+        "title": "SWEETS hotel",
+        "client": "SWEETS hotel",
+        "year": 2018,
+        "responsibilies": "Project direction",
+        "description": "Creation of the website of a new boutique hotel concept in Amsterdam.",
+        "stack": [],
+        "highlight": false,
+        "public": true
+    },
+    {
+        "slug": "acme",
+        "title": "Acme",
+        "client": "Acme",
+        "year": 2023,
+        "responsibilies": "Front-end development",
+        "description": "Set-up of dynamic dashboard for invoicing SaaS.",
+        "stack": ["Next.js", "React", "Tailwind CSS"],
+        "highlight": true,
+        "public": true
+    },
+    {
+        "slug": "kasa",
+        "title": "Kasa",
+        "client": "Kasa",
+        "year": 2023,
+        "responsibilies": "Front-end development",
+        "description": "Website development for a housing company.",
+        "stack": [],
+        "highlight": false,
+        "public": true
+    },
+    {
+        "slug": "bouygues-telecom",
+        "title": "Bouygues Telecom",
+        "client": "Bouygues Telecom",
+        "year": 2020,
+        "responsibilies": "Project management",
+        "description": "Set-up of the new design system.",
+        "stack": [],
+        "highlight": false,
+        "public": true
+    },
+    {
+        "slug": "martell",
+        "title": "Martell",
+        "client": "Martell",
+        "year": 2020,
+        "responsibilies": "Project management",
+        "description": "Management of the new Martell website.",
+        "stack": [],
+        "highlight": true,
+        "public": true
+    },
+    {
+        "slug": "alexandre-humbert",
+        "title": "Alexandre Humbert",
+        "client": "Alexandre Humbert",
+        "year": 2022,
+        "responsibilies": "UI design",
+        "description": "Design of Alexandre's new portfolio website.",
+        "stack": [],
+        "highlight": false,
+        "public": true
+    },
+    {
+        "slug": "snipes",
+        "title": "Snipes",
+        "client": "Snipes",
+        "year": 2022,
+        "responsibilies": "Project management",
+        "description": "Management of the brand hubs on Snipes global platform.",
+        "stack": [],
+        "highlight": false,
+        "public": true
+    },
+    {
+        "slug": "asics",
+        "title": "ASICS",
+        "client": "ASICS",
+        "year": 2022,
+        "responsibilies": "Project management",
+        "description": "Delivery of global digital campaigns.",
+        "stack": [],
+        "highlight": false,
+        "public": true
+    },
+    {
+        "slug": "booki",
+        "title": "Booki",
+        "client": "Booki",
+        "year": 2023,
+        "responsibilies": "Front-end development",
+        "description": "Website development for a property rental company.",
+        "stack": [],
+        "highlight": true,
+        "public": true
+    },
+    {
+        "slug": "heineken",
+        "title": "Heineken",
+        "client": "Heineken",
+        "year": 2019,
+        "responsibilies": "Project management, Product management",
+        "stack": [],
+        "description": "Development of a B2B mobile app.",
+        "highlight": false,
+        "public": false
+    },
+    {
+        "slug": "alfred",
+        "title": "Alfred",
+        "client": "Bouygues Telecom",
+        "year": 2021,
+        "responsibilies": "Project management",
+        "description": "Development of a B2B web app for Bouygues Telecom",
+        "stack": [],
+        "highlight": false,
+        "public": false
+    }
+]
