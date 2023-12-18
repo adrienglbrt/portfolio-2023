@@ -9,7 +9,7 @@ export default function Footer() {
                 <li>GitHub</li>
             </ul>
             <p>2023 © Adrien Galibert</p>
-            <span className="font-bold text-[160px] absolute -right-16 -bottom-10">Ag–</span>
+            <span className="font-bold text-[160px] md:text-[320px] absolute -right-16 -bottom-10">Ag–</span>
         </footer>
     )
 }
