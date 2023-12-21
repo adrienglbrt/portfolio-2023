@@ -16,7 +16,7 @@ const fraktion = localFont({
 
 export default function Layout({ children }) {
     return (
-        <div className={`flex min-h-screen flex-col items-stretch justify-between p-2 ${satoshi.variable} ${fraktion.variable} font-sans antialiased`}>
+        <div className={`flex min-h-screen flex-col items-stretch justify-between bg-yellow ${satoshi.variable} ${fraktion.variable} font-sans antialiased`}>
             <Navbar />
             <main>{children}</main>
             <Footer />
