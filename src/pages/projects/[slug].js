@@ -3,7 +3,7 @@ import projectsData from '@/data/projects.json'
 import Button from '@/components/button'
 import Image from 'next/image'
 import Wrapper from '@/components/wrapper'
-import PushInternal from '@/components/pushInternal'
+import PushDefault from '@/components/pushDefault'
  
 export default function Project() {
   const router = useRouter()
@@ -59,16 +59,16 @@ export default function Project() {
             <div className=" mt-16 md:mt-32 flex flex-row justify-between lg:grid lg:grid-cols-12 gap-8">
               <div className="lg:col-span-4 lg:col-start-1">
                 {hasPrevious ? (
-                  <PushInternal href={`/projects/${previousProject.slug}`} label={previousProject.title} />
+                  <PushDefault href={`/projects/${previousProject.slug}`}>{previousProject.title}</PushDefault>
                 ) : (
-                  <PushInternal href={"/projects"} label="All projects" />
+                  <PushDefault href={"/projects"}>All projects</PushDefault>
                 )}
               </div>
               <div className="lg:col-span-4 lg:col-start-9">
                 {hasNext ? (
-                  <PushInternal href={`/projects/${nextProject.slug}`} label={nextProject.title} />
+                  <PushDefault href={`/projects/${nextProject.slug}`}>{nextProject.title}</PushDefault>
                 ) : (
-                  <PushInternal href={"/projects"} label="All projects" />
+                  <PushDefault href={"/projects"}>All projects</PushDefault>
                 )}
               </div>
           </div>

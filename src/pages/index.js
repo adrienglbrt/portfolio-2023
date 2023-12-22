@@ -1,7 +1,6 @@
 import projectsData from '../data/projects.json'
-import Image from 'next/image'
-import Link from 'next/link'
-import PushInternal from '@/components/pushInternal'
+import PushDefault from '@/components/pushDefault'
+import PushProject from '@/components/pushProject'
 import Wrapper from '@/components/wrapper'
 import SkillListItem from '@/components/skillListItem'
 
@@ -20,17 +19,9 @@ export default function Home() {
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Selected work</h2>
             <div className="flex flex-col gap-8 md:w-[80%]">
               {highlightedProjects.map((project) => (
-                <Link key={project.slug} href={`/projects/${project.slug}`}>
-                  <div className="overflow-hidden rounded-l md:rounded-xl">
-                    <Image src={`/images/projects/${project.slug}.jpg`} alt={project.title} width="1200" height="900"/>
-                  </div>
-                  <div className="flex justify-between items-center mt-2 md:hidden">
-                    <h2 className="text-xl font-medium">{project.title}</h2>
-                    <p className="text-l">{project.year}</p>
-                  </div>
-                </Link>
+                <PushProject key={project.slug} project={project}/>
               ))}
-            <PushInternal href={"/projects"} label={"See more projects"}/>
+            <PushDefault href={"/projects"}>See more projects</PushDefault>
             </div>
           </section>
           <section className="md:col-span-3 md:col-start-9 self-start sticky top-4">
