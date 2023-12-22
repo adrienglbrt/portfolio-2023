@@ -9,6 +9,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": true
     },
     {
@@ -21,6 +22,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": ["Next.js", "React", "Tailwind CSS"],
         "highlight": true,
+        "link": "#",
         "public": true
     },
     {
@@ -33,6 +35,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": true
     },
     {
@@ -45,6 +48,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": true
     },
     {
@@ -57,6 +61,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": true,
+        "link": "#",
         "public": true
     },
     {
@@ -69,6 +74,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": true
     },
     {
@@ -81,6 +87,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": true
     },
     {
@@ -93,6 +100,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": true
     },
     {
@@ -105,6 +113,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": true,
+        "link": "#",
         "public": true
     },
     {
@@ -117,6 +126,7 @@
         "description": "Development of a B2B mobile app.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "highlight": false,
+        "link": "#",
         "public": false
     },
     {
@@ -129,6 +139,7 @@
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
         "highlight": false,
+        "link": "#",
         "public": false
     }
 ]
