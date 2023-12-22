@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PushInternal from '@/components/pushInternal'
 import Wrapper from '@/components/wrapper'
+import SkillListItem from '@/components/skillListItem'
 
 export default function Home() {
   const highlightedProjects = projectsData.filter(project => project.highlight === true)
@@ -35,10 +36,10 @@ export default function Home() {
           <section className="md:col-span-3 md:col-start-9 self-start sticky top-4">
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Stack</h2>
             <ul className="flex flex-col gap-1 divide-y-2 divide-black text-2xl md:text-3xl">
-              <li><p className="block pt-2 pb-2">React</p></li>
-              <li><p className="block pt-2 pb-2">Next.js</p></li>
-              <li><p className="block pt-2 pb-2">Tailwind CSS</p></li>
-              <li><p className="block pt-2 pb-2">Framer Motion</p></li>
+              <SkillListItem>React</SkillListItem>
+              <SkillListItem>Next.js</SkillListItem>
+              <SkillListItem>Tailwind CSS</SkillListItem>
+              <SkillListItem>Framer Motion</SkillListItem>
             </ul>
           </section>
         </div>
