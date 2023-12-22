@@ -52,7 +52,7 @@ export default function Project() {
               <div className="lg:col-span-5 lg:col-start-8 lg:row-start-2">
                 <p className="text-xl md:text-2xl mb-16">{project.longDescription}</p>
                 {project.link ? (
-                  <Button href={project.link} label="View Project" />
+                  <Button href={project.link}>View Project</Button>
                 ) : null}
               </div>
             </div>
