@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="mt-32 md:mt-80 relative overflow-hidden bg-black text-yellow">
             <Wrapper>
                 <div className="flex flex-col justify-between min-h-[40vh] md:min-h-[60vh] pt-8 pb-8 md:pt-16 md:pb-16">
-                    <ul className="mb-4 font-mono uppercase">
+                    <ul className="mb-4 font-mono uppercase flex flex-col items-start">
                         <FooterEmail email="adrien.galibert@gmail.com">Email</FooterEmail>
                         <FooterLink href="#">Instagram</FooterLink>
                         <FooterLink href="#">LinkedIn</FooterLink>
