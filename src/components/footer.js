@@ -1,5 +1,6 @@
 import Wrapper from "./wrapper"
 import FooterLink from "./footerLink"
+import FooterEmail from "./footerEmail"
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
             <Wrapper>
                 <div className="flex flex-col justify-between min-h-[40vh] md:min-h-[60vh] pt-8 pb-8 md:pt-16 md:pb-16">
                     <ul className="mb-4 font-mono uppercase">
-                        <li className="mb-10">Email</li>
+                        <FooterEmail email="adrien.galibert@gmail.com">Email</FooterEmail>
                         <FooterLink href="#">Instagram</FooterLink>
                         <FooterLink href="#">LinkedIn</FooterLink>
                         <FooterLink href="#">GitHub</FooterLink>

@@ -1,4 +1,4 @@
-import Navbar from '@/components/navbar'
+import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import localFont from 'next/font/local'
 
@@ -17,7 +17,7 @@ const fraktion = localFont({
 export default function Layout({ children }) {
     return (
         <div className={`flex min-h-screen flex-col items-stretch justify-between bg-yellow ${satoshi.variable} ${fraktion.variable} font-sans antialiased`}>
-            <Navbar />
+            <NavBar />
             <main>{children}</main>
             <Footer />
         </div>
