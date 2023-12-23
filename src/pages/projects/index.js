@@ -3,7 +3,7 @@ import projectsData from "@/data/projects.json"
 import ProjectListItem from "@/components/projectListItem"
 
 export default function Projects() {
-    const sortedList = projectsData.sort((a, b) => b.year - a.year)
+    const sortedList = projectsData.filter(project => project.public == true).sort((a, b) => b.year - a.year)
 
     return (
         <Wrapper>

@@ -14,7 +14,7 @@ module.exports = {
         blue: '#111d39',
         pink: '#edafb8',
         red: '#ff220c',
-        overlay: 'rgba(0,0,0,0.2)',
+        overlay: 'rgba(0,0,0,0.5)',
       },
       fontFamily: {
         sans: ['var(--font-satoshi)'],

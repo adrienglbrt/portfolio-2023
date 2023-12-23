@@ -8,8 +8,9 @@
         "description": "Creation of the website of a new boutique hotel concept in Amsterdam.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "/images/projects/sweets-hotel.jpg",
         "link": "#",
+        "highlight": false,
         "public": true
     },
     {
@@ -21,8 +22,9 @@
         "description": "Set-up of dynamic dashboard for invoicing SaaS.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": ["Next.js", "React", "Tailwind CSS"],
-        "highlight": true,
+        "img": "/images/projects/acme.jpg",
         "link": "#",
+        "highlight": true,
         "public": true
     },
     {
@@ -34,8 +36,9 @@
         "description": "Website development for a housing company.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "/images/projects/kasa.jpg",
         "link": "#",
+        "highlight": false,
         "public": true
     },
     {
@@ -47,8 +50,9 @@
         "description": "Set-up of the new design system.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "/images/projects/bouygues.jpg",
         "link": "#",
+        "highlight": false,
         "public": true
     },
     {
@@ -60,8 +64,9 @@
         "description": "Management of the new Martell website.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": true,
+        "img": "/images/projects/martell.jpg",
         "link": "#",
+        "highlight": true,
         "public": true
     },
     {
@@ -73,8 +78,9 @@
         "description": "Design of Alexandre's new portfolio website.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "/images/projects/alexandre-humbert.jpg",
         "link": "#",
+        "highlight": false,
         "public": true
     },
     {
@@ -86,8 +92,9 @@
         "description": "Management of the brand hubs on Snipes global platform.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "/images/projects/snipes.jpg",
         "link": "#",
+        "highlight": false,
         "public": true
     },
     {
@@ -99,9 +106,10 @@
         "description": "Delivery of global digital campaigns.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "",
         "link": "#",
-        "public": true
+        "highlight": false,
+        "public": false
     },
     {
         "slug": "booki",
@@ -112,8 +120,9 @@
         "description": "Website development for a property rental company.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": true,
+        "img": "/images/projects/booki.jpg",
         "link": "#",
+        "highlight": true,
         "public": true
     },
     {
@@ -122,11 +131,12 @@
         "client": "Heineken",
         "year": 2019,
         "role": "Project management, Product management",
-        "stack": [],
         "description": "Development of a B2B mobile app.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
-        "highlight": false,
+        "stack": [],
+        "img": "",
         "link": "#",
+        "highlight": false,
         "public": false
     },
     {
@@ -138,8 +148,9 @@
         "description": "Development of a B2B web app for Bouygues Telecom",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
         "stack": [],
-        "highlight": false,
+        "img": "",
         "link": "#",
+        "highlight": false,
         "public": false
     }
 ]
