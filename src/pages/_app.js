@@ -16,7 +16,11 @@ export default function App({ Component, pageProps, router }) {
   return (
     <LenisScroll>
         <Layout>
-        <AnimatePresence mode="wait">
+        <AnimatePresence
+          mode="wait"
+          initial={false}
+          onExitComplete={() => window.scrollTo(0, 0)}
+        >
           <motion.div key={router.route}>
             <motion.div
               style={{
