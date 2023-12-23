@@ -34,7 +34,7 @@ export default function StackListItem({ gifPath, children }) {
         <li
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            className="relative cursor-none"
+            className="relative cursor-crosshair"
         >
             <p className="block pt-2 md:pt-4 pb-2 md:pb-4">{children}</p>
             {isHovered ? (

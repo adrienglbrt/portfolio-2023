@@ -17,7 +17,8 @@ export default function Home() {
   return (
       <Wrapper>
         <section className="flex flex-col justify-end h-[calc(100vh-64px)]">
-          <h1 className="text-6xl md:text-8xl font-bold mb-4 md:mb-12">Producer turned<br />front-end developer.</h1>
+          <h1 className="text-6xl md:text-8xl font-bold mb-4 md:mb-12">Seasoned producer turned<br />(junior) front-end developer.</h1>
+          <p className="text-4xl md:text-6xl mb-4 md:mb-12">Okay, that's weird.</p>
           <p className="text-2xl md:text-4xl md:w-[80%]">Freshly converted developer with 8 years of agency and studio experience, managing web projects for clients small and large. Now getting my hands dirty to build cool stuff 😈</p>
         </section>
         <div className="mt-16 md:mt-32 grid md:grid-cols-12 gap-8">
@@ -32,7 +33,7 @@ export default function Home() {
           </section>
           <section className="md:col-span-3 md:col-start-9 self-start sticky top-4">
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Stack</h2>
-            <ul className="flex flex-col gap-1 divide-y-2 divide-black text-2xl md:text-3xl cursor-none">
+            <ul className="flex flex-col gap-1 divide-y-2 divide-black text-2xl md:text-3xl cursor-crosshair">
               <StackListItem gifPath={stackItemOnePath}>React</StackListItem>
               <StackListItem gifPath={stackItemTwoPath}>Next.js</StackListItem>
               <StackListItem gifPath={stackItemThreePath}>Tailwind CSS</StackListItem>
