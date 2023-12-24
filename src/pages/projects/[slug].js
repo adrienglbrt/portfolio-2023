@@ -26,7 +26,6 @@ export default function Project() {
   const previousProject = hasPrevious ? sortedList[previousIndex] : null
   const nextProject = hasNext ? sortedList[nextIndex] : null
 
-
   return (
     <Wrapper>
     {project && 

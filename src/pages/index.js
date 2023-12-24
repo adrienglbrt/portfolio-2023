@@ -1,25 +1,84 @@
 // "use client"
 
 import projectsData from '../data/projects.json'
+
 import PushDefault from '@/components/pushDefault'
 import PushProject from '@/components/pushProject'
 import Wrapper from '@/components/wrapper'
 import StackListItem from '@/components/stackListItem'
 
+import { motion, useMotionValue, useTransform, animate, useTime, useAnimation } from 'framer-motion'
+import { useEffect, useRef } from 'react'
+// import useMousePosition from '@/utils/hooks/useMousePosition'
+
 export default function Home() {
   const highlightedProjects = projectsData.filter(project => project.highlight === true)
+
+  const cursorX = useMotionValue(0)
+  const cursorY = useMotionValue(0)
+  const containerRef = useRef(null)
+
+  const scale = (value, inputMin, inputMax, outputMin, outputMax) => {
+    return ((value - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin) + outputMin;
+  };
+
+  useEffect(() => {
+    const updateCursorPosition = (e) => {
+      cursorX.set(e.clientX)
+      cursorY.set(e.clientY)
+      console.log('Cursor X:', e.clientX, 'Cursor Y:', e.clientY);
+    }
+
+    document.addEventListener('mousemove', updateCursorPosition)
+
+    return () => {
+      document.removeEventListener('mousemove', updateCursorPosition)
+    }
+  }, [cursorX, cursorY])
 
   const stackItemOnePath = '/images/skills/skill-1.gif'
   const stackItemTwoPath = '/images/skills/skill-2.gif'
   const stackItemThreePath = '/images/skills/skill-3.gif'
   const stackItemFourPath = '/images/skills/skill-4.gif'  
-
+  
   return (
       <Wrapper>
-        <section className="flex flex-col justify-end h-[calc(100vh-64px)]">
-          <h1 className="text-6xl md:text-8xl font-bold mb-4 md:mb-12">Seasoned producer turned<br />(junior) front-end developer.</h1>
-          <p className="text-4xl md:text-6xl mb-4 md:mb-12">Okay, that's weird.</p>
-          <p className="text-2xl md:text-4xl md:w-[80%]">Freshly converted developer with 8 years of agency and studio experience, managing web projects for clients small and large. Now getting my hands dirty to build cool stuff 😈</p>
+        <section className="relative flex flex-col justify-end h-[calc(100vh-100px)]">
+          <h1
+            className="text-6xl md:text-8xl font-bold mb-4 md:mb-12">Seasoned producer<br />turned (junior) developer.</h1>
+          {/* <p className="text-4xl md:text-6xl mb-4 md:mb-12">Okay, that's weird.</p> */}
+          <p className="pb-8 text-2xl md:text-4xl md:w-[80%]">Previously at <span className="font-medium">Rōnin Amsterdam</span>, <span className="font-medium">BETC Paris</span> & <span className="font-medium">Ogilvy Paris</span>, managing web projects for clients small and large. Now spicing things up a bit to keep it all interesting, and getting my hands dirty to build cool stuff – for now focusing on the front-end.</p>
+          <div className='absolute right-24 bottom-60 h-[400px] w-[400px]' ref={containerRef}>
+            <motion.div 
+              className="absolute bg-[rgba(17,29,57,0.9)] h-96 w-96 rounded-full blur-xl"
+              style={{
+                x: useTransform(cursorX, (x) => {
+                  const containerWidth = containerRef.current?.offsetWidth || 0;
+                  const scale = 50; // Adjust the scaling factor as needed
+                  const centeredX = x - containerWidth / 2;
+                  return centeredX === 0 ? 0 : centeredX / scale;
+                }),
+                y: useTransform(cursorY, (y) => {
+                  const containerHeight = containerRef.current?.offsetHeight || 0;
+                  const scale = 50; // Adjust the scaling factor as needed
+                  const centeredY = y - containerHeight / 2;
+                  return centeredY === 0 ? 0 : centeredY / scale * -1;
+                }),
+              }}
+            />
+            <motion.div
+              className="absolute bg-[rgba(255,34,12,0.9)] h-64 w-80 rounded-full blur-lg"
+              animate={{
+                rotate: [0, 360], // Infinite rotation from 0 to 360 degrees
+                scale: [1, 1.2, 1], // Infinite scaling animation
+              }}
+              transition={{
+                duration: 5, // Adjust the duration of each cycle
+                repeat: Infinity, // Repeat the animation infinitely
+                ease: 'linear', // Linear easing for constant speed
+              }}
+            />
+          </div>
         </section>
         <div className="mt-16 md:mt-32 grid md:grid-cols-12 gap-8">
           <section className="md:col-span-8">

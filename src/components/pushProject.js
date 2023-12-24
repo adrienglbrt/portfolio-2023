@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from 'next/image'
 
 export default function PushProject({ project, format }) {
-    const height = (format == "small" ? "h-60" : null ) 
+    const height = (format == "small" ? "h-40 lg:h-60" : null ) 
 
     return (
         <Link key={project.slug} href={`/projects/${project.slug}`} className="group block rounded-l md:rounded-xl overflow-hidden w-full">
