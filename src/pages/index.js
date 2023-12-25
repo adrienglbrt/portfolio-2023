@@ -22,7 +22,6 @@ export default function Home() {
     const updateCursorPosition = (e) => {
       cursorX.set(e.clientX)
       cursorY.set(e.clientY)
-      console.log('Cursor X:', e.clientX, 'Cursor Y:', e.clientY);
     }
 
     document.addEventListener('mousemove', updateCursorPosition)
