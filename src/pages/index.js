@@ -49,7 +49,7 @@ export default function Home() {
             <h1
               className="text-6xl md:text-8xl font-bold mb-4 md:mb-12">Seasoned producer<br />turned (junior) developer.</h1>
             {/* <p className="text-4xl md:text-6xl mb-4 md:mb-12">Okay, that's weird.</p> */}
-            <p className="pb-8 text-2xl md:text-4xl md:w-[80%]">Previously at <LinkExternal href="https://www.roninamsterdam.com/">Rōnin Amsterdam</LinkExternal>, <LinkExternal href="https://betc.com/">BETC Paris</LinkExternal> & <LinkExternal href="https://www.ogilvy.com/">Ogilvy Paris</LinkExternal>, managing web projects for clients small and large. Now spicing things up a bit to keep it all interesting, and getting my hands dirty to build cool stuff – for now focusing on the front-end.</p>
+            <p className="pb-8 text-2xl md:text-4xl md:w-[80%]">Previously at <LinkExternal href="https://www.roninamsterdam.com/" format="large">Rōnin Amsterdam</LinkExternal>, <LinkExternal href="https://betc.com/" format="large">BETC Paris</LinkExternal> & <LinkExternal href="https://www.ogilvy.com/" format="large">Ogilvy Paris</LinkExternal>, managing web projects for clients small and large. Now spicing things up a bit to keep it all interesting, and getting my hands dirty to build cool stuff – for now focusing on the front-end.</p>
             <div className='absolute right-8 top-24 lg:right-16 lg:top-10 xl:right-24 xl:bottom-60 xl:top-auto h-[400px] w-[400px]' ref={containerRef}>
               <motion.div 
                 className="absolute bg-[rgba(17,29,57,0.9)] h-96 w-96 rounded-full blur-xl"

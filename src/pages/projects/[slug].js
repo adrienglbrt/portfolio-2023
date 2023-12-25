@@ -1,10 +1,11 @@
 import { useRouter } from 'next/router'
 import projectsData from '@/data/projects.json'
-import Button from '@/components/button'
+// import Button from '@/components/button'
 import Image from 'next/image'
 import Wrapper from '@/components/wrapper'
 import PushDefault from '@/components/pushDefault'
 import PushProject from '@/components/pushProject'
+import LinkExternal from '@/components/linkExternal'
 import { motion, AnimatePresence } from 'framer-motion'
 import Head from 'next/head'
  
@@ -77,7 +78,7 @@ export default function Project() {
                 <div className="lg:col-span-5 lg:col-start-8 lg:row-start-2">
                   <p className="text-xl md:text-2xl mb-16">{project.longDescription}</p>
                   {project.link ? (
-                    <Button href={project.link}>View live website</Button>
+                    <LinkExternal href={project.link} format="medium">View live website</LinkExternal>
                   ) : null}
                 </div>
               </div>
