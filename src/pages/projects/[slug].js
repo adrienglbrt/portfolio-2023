@@ -6,6 +6,7 @@ import Wrapper from '@/components/wrapper'
 import PushDefault from '@/components/pushDefault'
 import PushProject from '@/components/pushProject'
 import { motion, AnimatePresence } from 'framer-motion'
+import Head from 'next/head'
  
 export default function Project() {
   const router = useRouter()
@@ -50,6 +51,9 @@ export default function Project() {
           exit={{ opacity: 0, transition: { duration: 0.5 } }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
         >
+          <Head>
+            <title>{project.title} - Adrien Galibert</title>
+          </Head>
           <Wrapper>
               <div className="mt-16 flex flex-col lg:grid lg:grid-cols-12 gap-8">
                 <div className="lg:col-span-5 lg:col-start-8">
