@@ -1,4 +1,4 @@
-import NavBar from '@/components/navBar'
+import NavBar from './navBar'
 import Footer from '@/components/footer'
 import localFont from 'next/font/local'
 
