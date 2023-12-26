@@ -7,7 +7,6 @@ import { motion, useScroll, useTransform } from "framer-motion"
 export default function Footer() {
     const footerRef = useRef(null)
     const { scrollYProgress } = useScroll({
-        layoutEffect: false,
         target: footerRef,
         offset: ["start end", "end end"]
     })
