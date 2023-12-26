@@ -8,6 +8,7 @@ import PushProject from '@/components/pushProject'
 import LinkExternal from '@/components/linkExternal'
 import { motion, AnimatePresence } from 'framer-motion'
 import Head from 'next/head'
+import Tag from '@/components/tag'
  
 export default function Project() {
   const router = useRouter()
@@ -71,12 +72,19 @@ export default function Project() {
                   </div>
                 </div>
                 <div className="lg:col-span-6 lg:col-start-1 lg:row-start-2">
-                  <div className="overflow-hidden rounded-l md:rounded-xl">
+                  <div className="overflow-hidden">
                     <Image src={project.img} alt={project.title} width="1200" height="900"/>
                   </div>
                 </div>
                 <div className="lg:col-span-5 lg:col-start-8 lg:row-start-2">
                   <p className="text-xl md:text-2xl mb-16">{project.longDescription}</p>
+                  {project.tags ? (
+                    <div className="flex gap-4 mb-8">
+                      {project.tags.map(tag => (
+                        <Tag key={tag} tag={tag} />
+                      ))}
+                    </div>
+                  ) : null}
                   {project.link ? (
                     <LinkExternal href={project.link} format="medium">View live website</LinkExternal>
                   ) : null}
