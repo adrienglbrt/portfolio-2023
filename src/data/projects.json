@@ -22,7 +22,7 @@
         "role": "Front-end development",
         "description": "Set-up of dynamic dashboard for invoicing SaaS.",
         "longDescription": "Nullam finibus nulla et justo elementum, eget fermentum augue egestas. Nulla pretium est id nunc maximus egestas. Maecenas eu quam magna. Suspendisse potenti. Nullam feugiat neque id cursus pulvinar. Suspendisse eget pretium sapien. Fusce quis sem vel est sollicitudin tempor quis ac lectus. Fusce mauris lorem, rutrum a finibus nec, vehicula sed ex.",
-        "tags": ["React", "Next.js", "Tailwind"],
+        "tags": ["React", "Next.js", "Tailwind CSS"],
         "img": "/images/projects/acme.jpg",
         "link": "https://nextjs-dashboard-seven-phi-12.vercel.app/dashboard",
         "linkLabel": "View website",

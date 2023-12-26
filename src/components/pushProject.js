@@ -10,7 +10,7 @@ export default function PushProject({ project, format }) {
         target: divRef,
         offset: ["start end", "end start"]
     });
-    const translateY = useTransform(scrollYProgress, [0, 1], [20, -20]);
+    const translateY = useTransform(scrollYProgress, [0, 1], [30, -30]);
 
     const height = (format == "small" ? "h-40 lg:h-60" : null ) 
 
