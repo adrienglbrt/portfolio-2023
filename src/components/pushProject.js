@@ -22,7 +22,7 @@ export default function PushProject({ project, format }) {
                         translateY,
                     }}
                 >
-                <Image src={project.img} alt={project.title} width="1200" height="900" className="cover scale-125 origin-center group-hover:scale-110 transition duration-300"/>
+                <Image src={project.img} alt={project.title} width="1200" height="900" className="cover scale-[1.15] origin-center group-hover:scale-110 transition duration-300"/>
                 </motion.div>
                 <div className="hidden md:block absolute top-0 left-0 w-full h-full bg-gradient-to-t from-overlay to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                     <div className="absolute bottom-0 pl-8 pb-8 flex items-center">
