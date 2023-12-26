@@ -47,7 +47,6 @@ export default function Home() {
           <section className="relative flex flex-col justify-end h-[calc(100vh-100px)]">
             <h1
               className="text-6xl md:text-8xl font-bold mb-4 md:mb-12">Seasoned producer<br />turned (junior) developer.</h1>
-            {/* <p className="text-4xl md:text-6xl mb-4 md:mb-12">Okay, that's weird.</p> */}
             <p className="pb-8 text-2xl md:text-4xl md:w-[80%]">Previously at <LinkExternal href="https://www.roninamsterdam.com/" format="large">Rōnin Amsterdam</LinkExternal>, <LinkExternal href="https://betc.com/" format="large">BETC Paris</LinkExternal> & <LinkExternal href="https://www.ogilvy.com/" format="large">Ogilvy Paris</LinkExternal>, managing web projects for clients small and large. Now spicing things up a bit to keep it all interesting, and getting my hands dirty to build cool stuff – for now focusing on the front-end.</p>
             <div className='absolute right-8 top-24 lg:right-16 lg:top-10 xl:right-24 xl:bottom-60 xl:top-auto h-[400px] w-[400px]' ref={containerRef}>
               <motion.div 
@@ -55,13 +54,13 @@ export default function Home() {
                 style={{
                   x: useTransform(cursorX, (x) => {
                     const containerWidth = containerRef.current?.offsetWidth || 0;
-                    const scale = 50; // Adjust the scaling factor as needed
+                    const scale = 50;
                     const centeredX = x - containerWidth / 2;
                     return centeredX === 0 ? 0 : centeredX / scale;
                   }),
                   y: useTransform(cursorY, (y) => {
                     const containerHeight = containerRef.current?.offsetHeight || 0;
-                    const scale = 50; // Adjust the scaling factor as needed
+                    const scale = 50;
                     const centeredY = y - containerHeight / 2;
                     return centeredY === 0 ? 0 : centeredY / scale * -1;
                   }),
@@ -70,13 +69,13 @@ export default function Home() {
               <motion.div
                 className="absolute bg-[rgba(255,34,12,0.9)] h-64 w-80 rounded-full blur-lg"
                 animate={{
-                  rotate: [0, 360], // Infinite rotation from 0 to 360 degrees
-                  scale: [1, 1.2, 1], // Infinite scaling animation
+                  rotate: [0, 360],
+                  scale: [1, 1.2, 1], 
                 }}
                 transition={{
-                  duration: 5, // Adjust the duration of each cycle
-                  repeat: Infinity, // Repeat the animation infinitely
-                  ease: 'linear', // Linear easing for constant speed
+                  duration: 5,
+                  repeat: Infinity,
+                  ease: 'linear',
                 }}
               />
             </div>
