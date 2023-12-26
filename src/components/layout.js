@@ -1,5 +1,5 @@
 import NavBar from './navBar'
-import Footer from '@/components/footer'
+import Footer from './footer'
 import localFont from 'next/font/local'
 
 const satoshi = localFont({
