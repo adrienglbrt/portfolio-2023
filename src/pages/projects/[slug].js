@@ -85,8 +85,8 @@ export default function Project() {
                       ))}
                     </div>
                   ) : null}
-                  {project.link ? (
-                    <LinkExternal href={project.link} format="medium">View live website</LinkExternal>
+                  {project.link && project.linkLabel ? (
+                    <LinkExternal href={project.link} format="medium">{project.linkLabel}</LinkExternal>
                   ) : null}
                 </div>
               </div>
