@@ -26,9 +26,9 @@ export default function Footer() {
                     <div className="flex flex-col justify-between min-h-[40vh] md:min-h-[60vh] pt-8 pb-8 md:pt-16 md:pb-16">
                         <ul className="mb-4 font-mono uppercase flex flex-col items-start">
                             <FooterEmail email="adrien.galibert@gmail.com">Email</FooterEmail>
-                            <FooterLink href="#">Instagram</FooterLink>
-                            <FooterLink href="#">LinkedIn</FooterLink>
-                            <FooterLink href="#">GitHub</FooterLink>
+                            <FooterLink href="https://www.instagram.com/adriengalibert">Instagram</FooterLink>
+                            <FooterLink href="https://www.linkedin.com/in/adrien-galibert-7b400b42">LinkedIn</FooterLink>
+                            <FooterLink href="https://github.com/adrienglbrt">GitHub</FooterLink>
                         </ul>
                         <p className="block font-mono uppercase">2023 © Adrien Galibert</p>
                     </div>
