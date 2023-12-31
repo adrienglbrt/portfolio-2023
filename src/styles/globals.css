@@ -18,3 +18,8 @@
   color: var(--foreground);
   background-color: var(--background);
 } */
+
+::selection {
+  background-color: #181820;
+  color: #ffffe3;
+}
