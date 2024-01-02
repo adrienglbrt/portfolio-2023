@@ -50,7 +50,7 @@ export default function Home() {
             <p className="pb-8 text-2xl md:text-4xl md:w-[80%]">Previously at <LinkExternal href="https://www.roninamsterdam.com/" format="large">Rōnin Amsterdam</LinkExternal>, <LinkExternal href="https://betc.com/" format="large">BETC Paris</LinkExternal> & <LinkExternal href="https://www.ogilvy.com/" format="large">Ogilvy Paris</LinkExternal>, managing web projects for clients small and large. Now spicing things up and getting my hands dirty to build cool stuff.</p>
             <div className='absolute right-8 top-24 lg:right-16 lg:top-10 xl:right-24 xl:bottom-60 xl:top-auto h-[400px] w-[400px]' ref={containerRef}>
               <motion.div 
-                className="absolute bg-[rgba(17,29,57,0.9)] h-96 w-96 rounded-full blur-xl"
+                className="hidden lg:block absolute bg-[rgba(17,29,57,0.9)] h-96 w-96 rounded-full blur-xl"
                 style={{
                   x: useTransform(cursorX, (x) => {
                     const containerWidth = containerRef.current?.offsetWidth || 0;
@@ -67,7 +67,7 @@ export default function Home() {
                 }}
               />
               <motion.div
-                className="absolute bg-[rgba(255,34,12,0.9)] h-64 w-80 rounded-full blur-lg"
+                className="hidden lg:block absolute bg-[rgba(255,34,12,0.9)] h-64 w-80 rounded-full blur-lg"
                 animate={{
                   rotate: [0, 360],
                   scale: [1, 1.2, 1], 
